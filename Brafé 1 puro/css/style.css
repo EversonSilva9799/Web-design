@@ -10,6 +10,10 @@ body{
 	color: #252525;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 
 
 .clear{
@@ -228,7 +232,160 @@ h2.produtos_mineiro::before {
 	margin: 20px auto 0 auto; 
 }
 
+/*Locais*/
 
+.locais {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.locais_item {
+	clear: both;
+	margin: 60px 0;
+}
+
+.locais_item::before, .locais_item::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.locais_item img{
+	width: 460px;
+	max-width: 100%;
+	float: left;
+	display: block;
+	margin: 0 10px;
+}
+
+.locais_item > div {
+	width: 460px;
+	float: left;
+	margin: 0 10px;
+}
+
+.locais_item h2 {
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+.locais_item p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	max-width: 320px;
+	margin-bottom: 40px;
+}
+
+.locais_item a {
+	font-size: 1.125em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 3px solid;
+	color: #252525;
+	padding: 10px 20px;
+}
+
+
+/*Assine*/
+
+.assine {
+	background-color: #e7e4d8;
+    padding: 30px 0;
+}
+
+.assine_container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.assine_container::before, .assine_container::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.assine_info {
+	width: 460px;
+	margin: 0 10px;
+	float: left;
+}
+
+.assine_info h2 {
+	font-size: 2.25em;
+}
+.assine_info p {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.assine form {
+	width: 460px;
+	margin: 10px 10px 0 10px;
+	float: left;
+
+}
+
+.assine form label {
+	display: none;
+
+}
+
+.assine input {
+	width: 320px;
+	border: 3px solid #252525;
+	background: none;
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: Georgia, serif;
+	padding: 10px;
+	float: left;
+	
+}
+
+.assine button {
+	background-color: #252525;
+	font-family: Georgia, serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	width: 140px;
+	padding: 13px 0;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	
+
+}
+
+.footer {
+	background-color: #d6d3c8;
+	padding: 40px 0;
+}
+
+.footer_container {
+	max-width: 960px;
+	margin:  0 auto;
+
+}
+
+.footer_container::before, .footer_container::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.footer p {
+	float: left;
+	margin: 0 10px;
+	font-size: 1.125em;
+	line-height: 1.4em;
+}
+
+.footer img {
+	float: right;
+	margin: 0 10px;
+	display: block;
+}
 
 
 
