@@ -388,6 +388,196 @@ h2.produtos_mineiro::before {
 }
 
 
+/*Breakpoins*/
+
+
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+
+	.sobre_container {
+		max-width: 720px;
+	}
+
+	.sobre_item {
+		width: 340px;
+	}
+
+	.produtos_container {
+		max-width: 720px;
+	}
+
+	.produtos_item {
+		width: 220px;
+	}
+
+	.locais {
+		max-width: 720px;
+	}
+
+	.locais_item > div {
+		width: 340px;
+	}
+
+	.locais_item img {
+		width: 340px;
+	}
+
+	.assine_container {
+		max-width: 720px;
+	}
+
+	.assine_info {
+		width: 340px;
+	}
+
+	.assine form {
+		width: 340px;
+	}
+
+	.assine form input {
+		width: 250px;
+		height: 40px;
+		font-size: 0.9em;
+	}
+
+	.assine form button {
+		width: 90px;
+		font-size: 0.8em;
+		height: 40px;
+	}
+}
+
+/*Responsivo para mobile*/
+@media only screen and (max-width: 739px) {
+
+	.menu {
+		text-align: center;
+	}
+
+	a.menu_logo {
+		float: none;
+		margin: 0 auto;
+	}
+	.menu_nav {
+		float: none;
+		clear: both;
+	}
+
+	.intro {
+		padding: 60px 0;
+	}
+
+	.intro h1 {
+		font-size: 1.8em;
+	}
+
+	.sobre p {
+		font-size: 1em;
+		max-width: 300px;
+	}
+
+	.sobre_container {
+		max-width: 300px;
+	}
+
+	.sobre_item {
+		width: 340px;
+		margin: 0 auto;
+	}
+
+	.produtos_container {
+		max-width: 300px;
+	}
+
+	.produtos_item {
+		margin: 0 auto 20px auto;
+	}
+
+	.produtos_btn {
+		font-size: 0.8em;
+		width: 110px;
+		height: 45px;
+	}
+
+	.locais {
+		max-width: 300px;
+	}
+
+	.locais_item > div {
+		width: 300px;
+		margin: 0px;
+	}
+
+	.locais_item img {
+		width: 300px;
+		margin: 0px;
+	}
+
+	.assine_container {
+		max-width: 300px;
+	}
+
+	.assine_info {
+		width: 300px;
+		margin: 0 0 10px 0;
+	}
+
+	.assine form {
+		width: 300px;
+		margin: 0;
+	}
+
+	.assine form input {
+		width: 210px;
+		height: 40px;
+		font-size: 0.9em;
+	}
+
+	.assine form button {
+		width: 90px;
+		font-size: 0.8em;
+		height: 40px;
+	}
+
+	.footer_container {
+		max-width: 300px;
+
+	}
+
+	.footer p {
+		float: none;
+		margin: 0;
+	}
+
+	.footer img {
+		float: none;
+		margin:  20px 0;
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -269,6 +269,7 @@ body{background-color: #f7f7f7;}
 	border: none;
 	margin-bottom: 40px;
 	border-bottom: 1px solid #4286f4;
+	background: none;
 }
 
 .contato form button {
@@ -281,6 +282,76 @@ body{background-color: #f7f7f7;}
 	border: none;
 	cursor: pointer;
 
+}
+
+/*Página imovel*/
+
+.imovel {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.imovel h1 {
+	font-size: 2.25em;
+	margin-bottom: 30px;
+}
+
+.imovel h1::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin: 20px 0 50px 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.imovel img {
+	width: 600px;
+	margin-right: 40px;
+	float: left;
+}
+
+.imovel .wrap{
+	float: left;
+	text-align: justify;
+}
+
+.imovel .wrap h2 {
+	font-weight: normal;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.imovel .wrap h3 {
+	font-weight: normal;
+	font-size: 0.9em;
+	position: relative;
+	left: 20px;
+	margin-bottom: 20px;
+
+}
+
+.imovel .wrap h3::before {
+	content: '';
+	width: 5px;
+	height: 25px;
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	left: -23px;
+	background-color: #4286f4;
+	/* margin-right: 30px. */
+}
+
+.imovel ul li {
+	margin-bottom: 10px;
+}
+
+.imovel .contato {
+	display: block;
+	height: 30px;
 }
 
 
