@@ -1,0 +1,521 @@
+/*  Reset  */
+
+body, h1, h2, h3, p, ul{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Georgia, serif;
+	color: #252525;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+/* Menu */
+
+.menu{
+	background-color: #252525;
+	padding: 20px 0;
+}
+
+
+
+a.menu_logo{
+	display: block;
+
+}
+
+.menu_nav{
+
+
+}
+
+.menu_nav ul li{
+
+}
+
+.menu_nav a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
+}
+
+/*.Intro*/
+
+.intro{
+	background: url('../img/bg-intro.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+}
+
+.intro h1{
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+.intro h1::after{
+	content: '';
+	display: block;
+
+	background-color: #fff;
+	margin: 10px auto;
+
+}
+
+.intro p{
+	font-style: italic;
+	font-size: 1.125em;
+
+}
+
+/*Sobre*/
+
+.sobre {
+	
+
+}
+
+
+
+.sobre h2 {
+	
+	font-size: 2.25em;
+
+}
+
+.sobre_item {
+
+}
+
+.sobre_item img{
+	
+
+}
+
+.sobre_item h3{
+	font-size: 2.25em;
+	line-height: 1em;
+	background-color: #252525;
+	color: #fff;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+
+}
+
+.sobre > p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	font-style: italic;
+
+
+}
+
+
+/*Produtos*/
+
+.produtos {
+	background-color: #e7e4d8;
+
+	border-top: 3px solid #d6d3c8;
+	border-bottom: 3px solid #d6d3c8;
+}
+
+
+
+.produtos_item {
+	
+
+}
+
+.produtos_item h2 {
+
+	font-size: 2.25em;
+	
+}
+
+.produtos_item h2::before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: currentcolor;
+	border-radius: 50%;
+
+	border: 5px solid #e7e4d8;
+	box-shadow: 0 0 0 5px currentcolor;
+}
+
+h2.produtos_paulista::before {
+	color: #492901;
+}
+
+h2.produtos_carioca::before {
+	color: #c17139;
+}
+
+h2.produtos_mineiro::before {
+	color: #d7a54d;
+}
+
+.produtos_item p{
+	font-size: 0.875em;
+	line-height: 1.4em;
+}
+
+
+.produtos_btn {
+	width: 180px;
+	border:  3px solid;
+	color: #252525;
+	text-decoration: none;
+	display: block;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+/*Locais*/
+
+
+
+.locais_item {
+	clear: both;
+	margin: 60px 0;
+}
+
+
+
+.locais_item img{
+	width: 460px;
+	max-width: 100%;
+
+}
+
+.locais_item > div {
+
+}
+
+.locais_item h2 {
+	font-size: 2.25em;
+}
+
+.locais_item p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+
+
+}
+
+.locais_item a {
+	font-size: 1.125em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 3px solid;
+	color: #252525;
+
+}
+
+
+/*Assine*/
+
+.assine {
+	background-color: #e7e4d8;
+
+}
+
+
+
+.assine_info {
+
+}
+
+.assine_info h2 {
+	font-size: 2.25em;
+}
+.assine_info p {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.assine form {
+
+
+}
+
+.assine form label {
+	display: none;
+
+}
+
+.assine input {
+
+	border: 3px solid #252525;
+	background: none;
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: Georgia, serif;
+
+	
+}
+
+.assine button {
+	background-color: #252525;
+	font-family: Georgia, serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	width: 140px;
+
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	
+
+}
+
+.footer {
+	background-color: #d6d3c8;
+
+}
+
+
+
+.footer p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+}
+
+.footer img {
+
+}
+
+
+/*Breakpoins*/
+
+
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+
+	.sobre_container {
+		max-width: 720px;
+	}
+
+	.sobre_item {
+		width: 340px;
+	}
+
+	.produtos_container {
+		max-width: 720px;
+	}
+
+	.produtos_item {
+		width: 220px;
+	}
+
+	.locais {
+		max-width: 720px;
+	}
+
+	.locais_item > div {
+		width: 340px;
+	}
+
+	.locais_item img {
+		width: 340px;
+	}
+
+	.assine_container {
+		max-width: 720px;
+	}
+
+	.assine_info {
+		width: 340px;
+	}
+
+	.assine form {
+		width: 340px;
+	}
+
+	.assine form input {
+		width: 250px;
+		height: 40px;
+		font-size: 0.9em;
+	}
+
+	.assine form button {
+		width: 90px;
+		font-size: 0.8em;
+		height: 40px;
+	}
+}
+
+/*Responsivo para mobile*/
+@media only screen and (max-width: 739px) {
+
+	.menu {
+		text-align: center;
+	}
+
+	a.menu_logo {
+		float: none;
+		margin: 0 auto;
+	}
+	.menu_nav {
+		float: none;
+		clear: both;
+	}
+
+	.intro {
+		padding: 60px 0;
+	}
+
+	.intro h1 {
+		font-size: 1.8em;
+	}
+
+	.sobre p {
+		font-size: 1em;
+		max-width: 300px;
+	}
+
+	.sobre_container {
+		max-width: 300px;
+	}
+
+	.sobre_item {
+		width: 340px;
+		margin: 0 auto;
+	}
+
+	.produtos_container {
+		max-width: 300px;
+	}
+
+	.produtos_item {
+		margin: 0 auto 20px auto;
+	}
+
+	.produtos_btn {
+		font-size: 0.8em;
+		width: 110px;
+		height: 45px;
+	}
+
+	.locais {
+		max-width: 300px;
+	}
+
+	.locais_item > div {
+		width: 300px;
+		margin: 0px;
+	}
+
+	.locais_item img {
+		width: 300px;
+		margin: 0px;
+	}
+
+	.assine_container {
+		max-width: 300px;
+	}
+
+	.assine_info {
+		width: 300px;
+		margin: 0 0 10px 0;
+	}
+
+	.assine form {
+		width: 300px;
+		margin: 0;
+	}
+
+	.assine form input {
+		width: 210px;
+		height: 40px;
+		font-size: 0.9em;
+	}
+
+	.assine form button {
+		width: 90px;
+		font-size: 0.8em;
+		height: 40px;
+	}
+
+	.footer_container {
+		max-width: 300px;
+
+	}
+
+	.footer p {
+		float: none;
+		margin: 0;
+	}
+
+	.footer img {
+		float: none;
+		margin:  20px 0;
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

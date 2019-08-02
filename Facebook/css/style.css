@@ -1,0 +1,232 @@
+* { margin: 0; padding: 0; outline: 0; box-sizing: border-box; font-family: Helvetica, Arial, sans-serif;}
+a { text-decoration: none; }
+img { display: block; max-width: 100%; }
+ul { list-style: none; }
+
+body {
+	background-color: #fafbfd;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.between {
+	justify-content: space-between;
+}
+
+.around {
+	justify-content: space-around;
+}
+
+.header {
+	background-color: #3b5998;
+	padding: 15px 0;
+	margin-bottom: 40px;
+}
+
+.header .logo a {
+	font-size: 2.25em;
+	color: #fff;
+	font-weight: 600;
+	line-height: 19px;
+	font-style: italic;
+}
+
+.form-login {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-login label {
+	display: block;
+	font-size: 0.75em;
+	font-weight: 400;
+	line-height: 16px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.form-login input {
+	width: 148px;
+	height: 22px;
+	margin-right: 16px;
+	border: 1px solid rgba(0,0,0,8);
+}
+
+.esqueceu-conta {
+	font-size: 0.75em;
+	font-weight: 400;
+	line-height: 16px;
+	color: #9cb4d8;
+}
+
+.form-login button {
+	height: 22px;
+	padding: 0 4px;
+	background-color: #3d63ad; 
+	color: #fff;
+	font-weight: 600;
+	border:  1px solid rgba(0,0,0,0.4);
+	border-radius: 2px;
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+.form-login button:hover {
+	background-color: #365899;
+}
+
+
+.shared {
+	margin-right: 50px;
+	align-self: flex-start;
+}
+
+.shared p {
+	font-size: 1.25em;
+	font-weight: 700;
+	line-height: 29px;
+	color: #0e385f;
+	
+}
+
+
+.shared img {
+	width: 550px;
+	
+}
+
+.form-cadastro {
+	align-self: flex-start;
+	justify-content: flex-start;
+	flex: 1;
+}
+
+.form-cadastro h2 {
+	font-size: 2.25em;
+	font-weight: 600;
+	line-height: 48px;
+	color: #333;
+	margin-bottom: 8px;
+}
+
+.form-cadastro p {
+	font-size: 1.1875em;
+	font-weight: 400;
+	line-height: 25px;
+	color: #1d2129;
+}
+
+.box-form {
+	padding-top: 20px;
+}
+
+.box-form form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.input-control {
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+
+.input-control label {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 21px;
+	color: #90949c;
+	display:  block;
+	margin-bottom: 3px;
+}
+
+.input-control .input-text {
+	width: 100%;
+	height: 38px;
+	border: 1px solid rgba(17,17,17,0.2);
+	border-radius: 5px;
+	font-size: 1.125em;
+	font-weight: 400;
+	color: #1c1e21;
+	padding-left: 15px;
+}
+
+.input-radios {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.input-radios label {
+	width: 100%;
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 21px;
+	color: #90949c;
+	display:  block;
+	margin-bottom: 3px;
+}
+
+.input-radios input {
+	margin-right: 10px;
+}
+
+.input-radios span {
+	margin-right: 15px;
+}
+
+.w2 {
+	width: calc(50% - 10px);
+}
+
+.w3 {
+	width: calc(33.33% - 10px);
+}
+
+.input-mr {
+	margin-right: 30px;
+}
+
+.concorda-direitos {
+	margin-top: 25px;
+}
+
+.concorda-direitos p {
+	font-size: 0.6875em;
+	font-weight: 400;
+	line-height: 15px;
+	color: #777;
+}
+
+.concorda-direitos a {
+	color: #385898;
+}
+
+.button-control {
+	margin-top: 20px;
+}
+
+.button-control button {
+	width: 196px;
+	height: 40px;
+	border: 1px solid rgba(0,0,0,0.4);
+	border-radius: 5px;
+	color: #fff;
+	background-color: #61a04e;
+	font-size: 1.1875em;
+	font-weight: 700;
+	line-height: 24px;
+	cursor: pointer;
+}
+
+
+
